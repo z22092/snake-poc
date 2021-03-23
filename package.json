@@ -1,0 +1,22 @@
+{
+  "name": "study-case-game",
+  "version": "0.0.1",
+  "description": "study-case-game",
+  "main": "index.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z22092/study-case-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Jefferson Venceslau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z22092/study-case-game/issues"
+  },
+  "homepage": "https://github.com/z22092/study-case-game#readme"
+}
