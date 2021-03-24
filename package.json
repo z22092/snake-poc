@@ -4,6 +4,7 @@
   "description": "study-case-game",
   "main": "index.js",
   "scripts": {
+    "dev": "DEBUG=* nodemon node index.js",
     "test": "null"
   },
   "repository": {
@@ -18,5 +19,20 @@
   "bugs": {
     "url": "https://github.com/z22092/study-case-game/issues"
   },
-  "homepage": "https://github.com/z22092/study-case-game#readme"
+  "homepage": "https://github.com/z22092/study-case-game#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "debug": "^2.6.9",
+    "nodemon": "^2.0.7",
+    "standart": "^6.1.0"
+  },
+  "_moduleAliases": {
+    "@": "src/",
+    "@adapters": "src/main/adapters",
+    "@config": "src/main/config",
+    "@env": "src/main/env"
+  }
 }
