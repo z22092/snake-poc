@@ -4,6 +4,7 @@
   "description": "study-case-game",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "DEBUG=* nodemon node index.js",
     "test": "null"
   },
