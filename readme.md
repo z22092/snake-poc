@@ -6,8 +6,16 @@
 
 ---
 ## run:
-```js
-npm i && npm start
+
+clone :
+
+```shell
+$ git clone https://github.com/z22092/study-case-game.git
+```
+run:
+
+```shell
+$ npm i && npm start
 ```
 ## unique dependencies:
 - [Blessed](https://www.npmjs.com/package/blessed)
