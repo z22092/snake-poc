@@ -1,6 +1,6 @@
 const config = {
   gameConfig: { 
-    gameSpeed: 10,
+    gameSpeed: 40,
     initialSnakeSize: 4,
     directions: {
       up: { x: 0, y: -0.5 },
